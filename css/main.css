@@ -1,0 +1,65 @@
+/*
+Author: Jacobi Graziano
+Date: 1/20/2017
+Purpose: Styling sheet for shipping cost calculator
+Related files: shipCalc.php
+*/
+
+body {
+	font-family: "Open Sans", sans-serif;
+	background-color: #324851;
+	font-size: 24px;
+	color: #FFF;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	margin-top: 1em;
+	text-align: center;
+}
+
+/*Form styles */
+form {
+	background-color: #336B87;
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+	display: block;
+	margin: auto;
+	max-width: 50%;
+	padding: 1em;
+	color: #FFF;
+}
+
+label {
+	display: block;
+	margin: auto;
+	float: left;
+}
+
+input {
+	min-width: 100%;
+	max-width: 100%;
+	margin: .25em 0 .25em 0;
+	font-size: 24px;
+}
+
+/* Styling specific to sumbit button */
+input[type="submit"] {
+	padding: .25em;
+	background-color: #FFF;
+	border: 1px solid #000;
+}
+
+input[type="submit"]:hover {
+	background-color: #2A3132;
+	color: #FFF;
+	cursor: pointer;
+}
